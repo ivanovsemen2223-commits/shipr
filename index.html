@@ -1,0 +1,450 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="theme-color" content="#F4F1EB" />
+  <title>ШИПР · Барбершоп на Большой Никитской</title>
+  <meta name="description" content="Барбершоп ШИПР. Классические мужские стрижки, бритьё опасной бритвой, уход за бородой. Москва, с 2014 года." />
+
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='10' fill='%231C1D1F'/%3E%3Ctext x='50%25' y='58%25' dominant-baseline='middle' text-anchor='middle' font-family='Georgia' font-weight='800' font-size='17' fill='%23F4F1EB'%3EШ%3C/text%3E%3C/svg%3E" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="preconnect" href="https://images.unsplash.com" crossorigin />
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Onest:wght@300;400;500;600;700;800&family=Manrope:wght@300;400;500;600&family=JetBrains+Mono:wght@400&display=swap" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header class="header" id="site-header">
+    <div class="container header__inner">
+      <a href="#top" class="logo" aria-label="ШИПР, на главную">
+        <span class="logo__name">ШИПР</span>
+        <span class="logo__sub">м<span class="dot">·</span>барбершоп<span class="dot">·</span>с&nbsp;2014</span>
+      </a>
+
+      <nav class="nav" aria-label="Основная навигация">
+        <a href="#about">О нас</a>
+        <a href="#services">Стрижки</a>
+        <a href="#pricing">Прайс</a>
+        <a href="#team">Мастера</a>
+        <a href="#contact">Контакты</a>
+      </nav>
+
+      <div class="header__side">
+        <a class="phone" href="tel:+74950100707">+7 495 010 07 07</a>
+        <a class="btn btn--primary" href="#contact">Записаться</a>
+        <button class="burger" id="burger" aria-controls="nav" aria-expanded="false" aria-label="Меню">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main id="top">
+
+    <!-- ========== HERO ========== -->
+    <section class="hero">
+      <div class="container hero__grid">
+        <div class="hero__copy">
+          <p class="kicker hero__kicker-inline">с&nbsp;2014 года · Большая&nbsp;Никитская&nbsp;42</p>
+          <h1 class="hero__title">
+            <span>Стричься,</span>
+            <span class="serif"><em>как ходили</em></span>
+            <span>отцы&nbsp;и&nbsp;деды.</span>
+          </h1>
+          <p class="hero__lead">
+            Барбершоп на&nbsp;Большой&nbsp;Никитской с&nbsp;2014 года.
+            Четыре барбера, опасная бритва, нормальный кофе и&nbsp;никаких
+            «трендов сезона»&nbsp;— только то, что работает десятилетиями.
+          </p>
+          <div class="hero__actions">
+            <a class="btn btn--primary btn--lg" href="#contact">Записаться</a>
+            <a class="btn btn--ghost btn--lg" href="#pricing">Посмотреть прайс</a>
+          </div>
+        </div>
+
+        <figure class="hero__photo">
+          <img
+            src="https://images.unsplash.com/photo-1503951914875-452162b0f3f1?auto=format&fit=crop&w=1100&q=70"
+            alt="Барбер за работой"
+            data-fallback="ШИПР · с 2014"
+            decoding="async" fetchpriority="high" />
+        </figure>
+
+        <ul class="hero__strip" aria-label="Преимущества">
+          <li><span>01</span><strong>4 барбера</strong>опыт от 5&nbsp;до 8&nbsp;лет</li>
+          <li><span>02</span><strong>от 35 мин</strong>до 60&nbsp;на сложную форму</li>
+          <li><span>03</span><strong>от 1 200 ₽</strong>стрижка машинкой</li>
+          <li><span>04</span><strong>10:00–22:00</strong>пн–пт · сб–вс до&nbsp;21:00</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ========== ABOUT ========== -->
+    <section class="about" id="about">
+      <div class="container about__grid">
+        <span class="kicker">О месте</span>
+
+        <h2 class="display-h">
+          <span>Один зал,</span>
+          <span>четыре кресла,</span>
+          <span class="serif"><em>двенадцать лет</em></span>
+          <span>одной команды.</span>
+        </h2>
+
+        <div class="about__copy">
+          <p>
+            ШИПР открылся в 2014 году. С&nbsp;тех пор тут работает один и&nbsp;тот&nbsp;же
+            состав мастеров. Половина клиентов&nbsp;— раз в&nbsp;три недели, годами.
+            Сюда приходят за&nbsp;своим барбером, а&nbsp;не «попробовать новое место».
+          </p>
+          <p>
+            За 12 лет через нас прошло больше 38 000&nbsp;человек.
+            Самый молодой клиент&nbsp;— четырёхлетний Костя. Самый старший&nbsp;— Иван&nbsp;Семёнович, 1948&nbsp;года рождения.
+          </p>
+        </div>
+
+        <figure class="about__photo">
+          <img loading="lazy" decoding="async"
+            src="https://images.unsplash.com/photo-1622286342621-4bd786c2447c?auto=format&fit=crop&w=1100&q=70"
+            alt="Барбершоп · работа"
+            data-fallback="зал · работа" />
+        </figure>
+      </div>
+    </section>
+
+    <!-- ========== SERVICES TABS ========== -->
+    <section class="services" id="services">
+      <div class="container services__head">
+        <span class="kicker">Что делаем</span>
+        <h2 class="display-h">
+          <span>Пять стрижек,</span>
+          <span class="serif"><em>одно бритьё.</em></span>
+        </h2>
+      </div>
+
+      <div class="container">
+        <div class="tabs" id="tabs">
+          <div class="tabs__nav" role="tablist">
+            <button role="tab" class="tabs__btn is-active" data-tab="fade">Fade</button>
+            <button role="tab" class="tabs__btn" data-tab="pompadour">Помпадур</button>
+            <button role="tab" class="tabs__btn" data-tab="crew">Crew Cut</button>
+            <button role="tab" class="tabs__btn" data-tab="beard">Борода</button>
+            <button role="tab" class="tabs__btn" data-tab="flat">Flat-top</button>
+          </div>
+
+          <div class="tabs__panels">
+            <article class="tab is-active" data-tab="fade">
+              <div class="tab__copy">
+                <span class="kicker">01 / Стрижка</span>
+                <h3>Fade. Плавный переход.</h3>
+                <p>Базовая стрижка с&nbsp;градиентом от&nbsp;длины наверху к&nbsp;коже на&nbsp;висках.
+                Самая частая просьба&nbsp;— делаем 6&nbsp;из&nbsp;10 клиентов.</p>
+                <dl class="tab__meta">
+                  <dt>Что входит</dt>
+                  <dd>Машинка, ножницы, бритва, укладка</dd>
+                  <dt>Время</dt>
+                  <dd>50 минут</dd>
+                  <dt>Цена</dt>
+                  <dd><strong>1 800 ₽</strong></dd>
+                </dl>
+                <a class="btn btn--primary" href="#contact">Записаться</a>
+              </div>
+              <figure class="tab__photo">
+                <img loading="lazy" decoding="async"
+                  src="https://images.unsplash.com/photo-1599351431202-1e0f0137899a?auto=format&fit=crop&w=900&q=70"
+                  alt="Стрижка fade" data-fallback="Fade · 50 мин · 1 800 ₽" />
+              </figure>
+            </article>
+
+            <article class="tab" data-tab="pompadour">
+              <div class="tab__copy">
+                <span class="kicker">02 / Стрижка</span>
+                <h3>Помпадур. Объём наверху.</h3>
+                <p>Длинная макушка зачёсана назад, виски короткие, фиксация воском.
+                Требует укладки дома&nbsp;— первые две недели мастер показывает,&nbsp;как.</p>
+                <dl class="tab__meta">
+                  <dt>Что входит</dt>
+                  <dd>Машинка + ножницы, укладка, обучение</dd>
+                  <dt>Время</dt>
+                  <dd>60 минут</dd>
+                  <dt>Цена</dt>
+                  <dd><strong>2 200 ₽</strong></dd>
+                </dl>
+                <a class="btn btn--primary" href="#contact">Записаться</a>
+              </div>
+              <figure class="tab__photo">
+                <img loading="lazy" decoding="async"
+                  src="https://images.unsplash.com/photo-1503951914875-452162b0f3f1?auto=format&fit=crop&w=900&q=70"
+                  alt="Помпадур" data-fallback="Помпадур · 60 мин · 2 200 ₽" />
+              </figure>
+            </article>
+
+            <article class="tab" data-tab="crew">
+              <div class="tab__copy">
+                <span class="kicker">03 / Стрижка</span>
+                <h3>Crew Cut. Короткая база.</h3>
+                <p>Короткая длина сверху, очень короткие виски. Не&nbsp;нужно укладывать
+                и&nbsp;возвращаться раньше, чем через месяц&nbsp;— форма держится сама.</p>
+                <dl class="tab__meta">
+                  <dt>Что входит</dt>
+                  <dd>Машинка с разными насадками</dd>
+                  <dt>Время</dt>
+                  <dd>35 минут</dd>
+                  <dt>Цена</dt>
+                  <dd><strong>1 600 ₽</strong></dd>
+                </dl>
+                <a class="btn btn--primary" href="#contact">Записаться</a>
+              </div>
+              <figure class="tab__photo">
+                <img loading="lazy" decoding="async"
+                  src="https://images.unsplash.com/photo-1622286342621-4bd786c2447c?auto=format&fit=crop&w=900&q=70"
+                  alt="Crew Cut" data-fallback="Crew · 35 мин · 1 600 ₽" />
+              </figure>
+            </article>
+
+            <article class="tab" data-tab="beard">
+              <div class="tab__copy">
+                <span class="kicker">04 / Уход</span>
+                <h3>Борода + опасная бритва.</h3>
+                <p>Очерчивание контура опасной бритвой, моделирование длины,
+                горячее полотенце и&nbsp;бальзам. Ритуал на&nbsp;40&nbsp;минут&nbsp;— большинство приходят за&nbsp;ним отдельно.</p>
+                <dl class="tab__meta">
+                  <dt>Что входит</dt>
+                  <dd>Полотенце, масло, бритва, бальзам</dd>
+                  <dt>Время</dt>
+                  <dd>40 минут</dd>
+                  <dt>Цена</dt>
+                  <dd><strong>1 400 ₽</strong></dd>
+                </dl>
+                <a class="btn btn--primary" href="#contact">Записаться</a>
+              </div>
+              <figure class="tab__photo">
+                <img loading="lazy" decoding="async"
+                  src="https://images.unsplash.com/photo-1605497788044-5a32c7078486?auto=format&fit=crop&w=900&q=70"
+                  alt="Бритьё бороды" data-fallback="Борода · 40 мин · 1 400 ₽" />
+              </figure>
+            </article>
+
+            <article class="tab" data-tab="flat">
+              <div class="tab__copy">
+                <span class="kicker">05 / Стрижка</span>
+                <h3>Flat-top. Площадка.</h3>
+                <p>Ровная макушка-площадка, чёткие линии, выбритые виски.
+                Только для густых жёстких волос&nbsp;— на&nbsp;тонких форма не&nbsp;будет держаться.</p>
+                <dl class="tab__meta">
+                  <dt>Что входит</dt>
+                  <dd>Машинка с расчёской, фиксация</dd>
+                  <dt>Время</dt>
+                  <dd>55 минут</dd>
+                  <dt>Цена</dt>
+                  <dd><strong>2 000 ₽</strong></dd>
+                </dl>
+                <a class="btn btn--primary" href="#contact">Записаться</a>
+              </div>
+              <figure class="tab__photo">
+                <img loading="lazy" decoding="async"
+                  src="https://images.unsplash.com/photo-1517832606299-7ae9b720a186?auto=format&fit=crop&w=900&q=70"
+                  alt="Flat-top" data-fallback="Flat-top · 55 мин · 2 000 ₽" />
+              </figure>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== PRICING ========== -->
+    <section class="pricing" id="pricing">
+      <div class="container pricing__grid">
+        <span class="kicker">Прайс</span>
+
+        <header class="pricing__head">
+          <h2 class="display-h">
+            <span>Цены без</span>
+            <span class="serif"><em>звёздочек.</em></span>
+          </h2>
+          <p>Цена не&nbsp;зависит от&nbsp;того, новый ты&nbsp;или постоянный.
+          Меняется только если меняется услуга. Без «акций для&nbsp;первого визита» и&nbsp;без скрытых наценок.</p>
+        </header>
+
+        <div class="pricing__cols">
+          <div class="pricing__col">
+            <h4>Стрижка</h4>
+            <ul class="price-list">
+              <li><span>Машинкой</span><b></b><strong>1 200 ₽</strong></li>
+              <li><span>Машинкой и ножницами</span><b></b><strong>1 800 ₽</strong></li>
+              <li><span>Помпадур</span><b></b><strong>2 200 ₽</strong></li>
+              <li><span>Flat-top</span><b></b><strong>2 000 ₽</strong></li>
+              <li><span>Детская стрижка (до 12&nbsp;лет)</span><b></b><strong>1 000 ₽</strong></li>
+              <li><span>Камуфляж седины</span><b></b><strong>900 ₽</strong></li>
+            </ul>
+          </div>
+
+          <div class="pricing__col">
+            <h4>Борода</h4>
+            <ul class="price-list">
+              <li><span>Моделирование машинкой</span><b></b><strong>800 ₽</strong></li>
+              <li><span>Опасная бритва</span><b></b><strong>1 400 ₽</strong></li>
+              <li><span>Королевское бритьё</span><b></b><strong>1 900 ₽</strong></li>
+              <li><span>Чёрная маска</span><b></b><strong>600 ₽</strong></li>
+              <li><span>Камуфляж бороды</span><b></b><strong>700 ₽</strong></li>
+              <li><span>Стрижка + борода</span><b></b><strong>2 600 ₽</strong></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== TEAM ========== -->
+    <section class="team" id="team">
+      <div class="container team__head">
+        <span class="kicker">Мастера</span>
+        <h2 class="display-h">
+          <span>Четверо.</span>
+          <span class="serif"><em>Без замены.</em></span>
+        </h2>
+      </div>
+
+      <div class="container team__grid">
+        <article class="member">
+          <figure>
+            <img loading="lazy" decoding="async"
+              src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=700&q=70"
+              alt="Михаил Соколов"
+              data-fallback="Михаил · Соколов" />
+          </figure>
+          <div class="member__meta">
+            <h4>Михаил Соколов</h4>
+            <p>Топ-барбер · 8 лет в&nbsp;ШИПР</p>
+            <span>fade и&nbsp;помпадур, основатель</span>
+          </div>
+        </article>
+        <article class="member">
+          <figure>
+            <img loading="lazy" decoding="async"
+              src="https://images.unsplash.com/photo-1463453091185-61582044d556?auto=format&fit=crop&w=700&q=70"
+              alt="Антон Лебедев"
+              data-fallback="Антон · Лебедев" />
+          </figure>
+          <div class="member__meta">
+            <h4>Антон Лебедев</h4>
+            <p>Барбер · 6 лет в&nbsp;ШИПР</p>
+            <span>опасная бритва, борода</span>
+          </div>
+        </article>
+        <article class="member">
+          <figure>
+            <img loading="lazy" decoding="async"
+              src="https://images.unsplash.com/photo-1480455624313-e29b44bbfde1?auto=format&fit=crop&w=700&q=70"
+              alt="Сергей Котов"
+              data-fallback="Сергей · Котов" />
+          </figure>
+          <div class="member__meta">
+            <h4>Сергей Котов</h4>
+            <p>Барбер · 7 лет в&nbsp;ШИПР</p>
+            <span>flat-top, классические формы</span>
+          </div>
+        </article>
+        <article class="member">
+          <figure>
+            <img loading="lazy" decoding="async"
+              src="https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?auto=format&fit=crop&w=700&q=70"
+              alt="Артём Карелин"
+              data-fallback="Артём · Карелин" />
+          </figure>
+          <div class="member__meta">
+            <h4>Артём Карелин</h4>
+            <p>Барбер · 5 лет в&nbsp;ШИПР</p>
+            <span>детские стрижки, crew cut</span>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- ========== CONTACT ========== -->
+    <section class="contact" id="contact">
+      <div class="container contact__grid">
+        <div class="contact__copy">
+          <span class="kicker">Запись</span>
+          <h2 class="display-h">
+            <span>Позвонить или</span>
+            <span class="serif"><em>прийти&nbsp;вживую.</em></span>
+          </h2>
+          <p>Бронь без предоплаты. Если опаздываешь&nbsp;— напиши, мастер дождётся.</p>
+
+          <ul class="contact__direct">
+            <li><span>Телефон</span><a href="tel:+74950100707">+7 495 010 07 07</a></li>
+            <li><span>Telegram</span><a href="#">@shipr_barber</a></li>
+            <li><span>WhatsApp</span><a href="#">+7 (903) 555 71 04</a></li>
+            <li><span>Адрес</span><span>Москва, Большая Никитская 42</span></li>
+            <li><span>Часы</span><span>Пн–Пт 10:00–22:00 · Сб–Вс 11:00–21:00</span></li>
+          </ul>
+        </div>
+
+        <form class="form" id="form" novalidate>
+          <span class="kicker form__spacer" aria-hidden="true">&nbsp;</span>
+          <div class="field">
+            <label for="f-name">Как зовут</label>
+            <input id="f-name" name="name" type="text" required minlength="2" placeholder="Александр" />
+          </div>
+          <div class="field">
+            <label for="f-phone">Телефон</label>
+            <input id="f-phone" name="phone" type="tel" required placeholder="+7 (___) ___-__-__" />
+          </div>
+          <div class="field">
+            <label for="f-service">Услуга</label>
+            <select id="f-service" name="service">
+              <option>Стрижка машинкой и ножницами</option>
+              <option>Помпадур</option>
+              <option>Crew Cut</option>
+              <option>Бритьё опасной бритвой</option>
+              <option>Уход за бородой</option>
+              <option>Стрижка + борода</option>
+              <option>Свой вариант</option>
+            </select>
+          </div>
+
+          <button type="submit" class="btn btn--primary btn--lg btn--block">
+            Записаться
+          </button>
+
+          <p class="form__note">
+            Перезвоним в течение 5&nbsp;минут и подберём время.
+            Все данные конфиденциальны.
+          </p>
+
+          <div class="form__success" id="form-success" hidden>
+            <span class="kicker">Заявка принята</span>
+            <p>Перезвоним в&nbsp;течение 5&nbsp;минут.</p>
+          </div>
+        </form>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer__grid">
+      <a href="#top" class="logo">
+        <span class="logo__name">ШИПР</span>
+      </a>
+      <p class="footer__address">Москва, Большая&nbsp;Никитская&nbsp;42 · 2&nbsp;минуты от&nbsp;м.&nbsp;Арбатская</p>
+      <p class="footer__legal">© 2014–2026 Барбершоп ШИПР · ИП Соколов&nbsp;М.А.</p>
+      <p class="footer__author">
+        Сделано
+        <a href="https://t.me/Frilste" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24" width="13" height="13" aria-hidden="true"><path d="M21.5 4.3 2.8 11.6c-1 .4-1 1 0 1.3l4.7 1.5L19 7.2c.5-.3.9-.1.5.2l-9.3 8.4-.4 5c.5 0 .7-.2 1-.5l2.4-2.3 4.9 3.6c.9.5 1.5.2 1.7-.8L23 5.4c.3-1.2-.4-1.7-1.5-1.1z" fill="currentColor"/></svg>
+          @Frilste
+        </a>
+      </p>
+    </div>
+  </footer>
+
+  <script src="app.js" defer></script>
+</body>
+</html>
